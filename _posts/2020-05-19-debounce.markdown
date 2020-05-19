@@ -1,0 +1,23 @@
+---
+layout: post
+title: "[JavaScript] Debounce"
+date: 2020-05-19 00:00:00 +0900
+categories: JavaScript
+---
+
+- 연달아 호출되는 함수의 마지막만 호출하도록 하는 것
+- window resize, 검색 등과 같이 연속된 이벤트가 발생하는 경우 사용
+
+```javascript
+var timer;
+if (timer) {
+  clearTimeout(timer);
+}
+timer = setTimeout(function () {
+  // 로직
+}, 200);
+```
+
+- 참고
+  - [JavaScript Debounce Function](https://davidwalsh.name/javascript-debounce-function)
+  - [디바운스(Debounce)와 스로틀(Throttle) 그리고 차이점](https://webclub.tistory.com/607)
