@@ -5,6 +5,10 @@ date: 2020-05-21 00:00:00 +0900
 categories: JavaScript
 ---
 
+데이터 타입, Symbol, 변수, Undefined와 Null
+
+---
+
 ### 데이터 타입
 
 - 기본형(Number, String, Boolean, Null, Undefined, Symbol): 불변값

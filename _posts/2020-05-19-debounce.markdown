@@ -5,6 +5,12 @@ date: 2020-05-19 00:00:00 +0900
 categories: JavaScript
 ---
 
+Debounce, 예제 코드
+
+---
+
+### Debounce
+
 - 연달아 호출되는 함수의 마지막만 호출하도록 하는 것
 - window resize, 검색 등과 같이 연속된 이벤트가 발생하는 경우 사용
 
@@ -19,6 +25,7 @@ timer = setTimeout(function () {
 }, 200);
 ```
 
-- 참고
-  - [쓰로틀링과 디바운싱](https://www.zerocho.com/category/JavaScript/post/59a8e9cb15ac0000182794fa)
-  - [디바운스(Debounce)와 스로틀(Throttle) 그리고 차이점](https://webclub.tistory.com/607)
+### 참고 자료
+
+- [쓰로틀링과 디바운싱](https://www.zerocho.com/category/JavaScript/post/59a8e9cb15ac0000182794fa)
+- [디바운스(Debounce)와 스로틀(Throttle) 그리고 차이점](https://webclub.tistory.com/607)
