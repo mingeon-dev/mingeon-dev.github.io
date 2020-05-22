@@ -1,0 +1,36 @@
+---
+layout: post
+title: "[JavaScript] 클로저"
+date: 2020-05-22 00:00:00 +0900
+categories: JavaScript
+---
+
+클로저, 예제 코드
+
+---
+
+### 클로저
+
+- 어떤 함수에서 선언한 변수를 참조하는 내부 함수를 외부로 전달할 경우, 함수의 실행 컨텍스트가 종료된 후에도 해당 변수가 사라지지 않는 현상
+- 메모리 관리를 위해 필요성이 사라진 시점에 null 할당 필요
+
+```javascript
+function makeFunc() {
+  var name = "Mozilla";
+  function displayName() {
+    alert(name);
+  }
+  return displayName;
+}
+
+var myFunc = makeFunc();
+//myFunc변수에 displayName을 리턴함
+//유효범위의 어휘적 환경을 유지
+myFunc();
+//리턴된 displayName 함수를 실행(name 변수에 접근)
+```
+
+### 참고 자료
+
+- [[MDN] 클로저](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Closures)
+- 정재남, 코어 자바스크립트, 위키북스(2019)
