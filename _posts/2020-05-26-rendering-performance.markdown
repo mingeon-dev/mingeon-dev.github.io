@@ -11,7 +11,7 @@ categories: JavaScript
 
 ### 렌더링 과정
 
-![전체 픽셀 파이프라인](https://developers.google.com/web/fundamentals/performance/rendering/images/intro/frame-full.jpg?hl=ko)
+![전체 픽셀 파이프라인](/assets/images/pixel-pipeline.jpg)
 
 - 자바스크립트: jQuery의 animate 함수, 데이터 집합 정렬 또는 페이지에 DOM 요소 추가 등 시각적 변화를 일으키는 작업을 처리
 - 스타일 계산: selector에 따라 어떤 CSS 규칙을 어떤 요소에 적용할지 계산
