@@ -28,5 +28,5 @@ if (!timer) {
 
 ### 참고 자료
 
-- [쓰로틀링과 디바운싱](https://www.zerocho.com/category/JavaScript/post/59a8e9cb15ac0000182794fa)
-- [디바운스(Debounce)와 스로틀(Throttle) 그리고 차이점](https://webclub.tistory.com/607)
+- [쓰로틀링과 디바운싱 \| ZeroCho Blog](https://www.zerocho.com/category/JavaScript/post/59a8e9cb15ac0000182794fa)
+- [디바운스(Debounce)와 스로틀(Throttle) 그리고 차이점 \| Web Club](https://webclub.tistory.com/607)

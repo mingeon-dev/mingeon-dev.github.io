@@ -45,5 +45,5 @@ categories: JavaScript
 
 ### 참고 자료
 
-- [var, let, const 특징 및 호이스팅](https://medium.com/sjk5766/var-let-const-%ED%8A%B9%EC%A7%95-%EB%B0%8F-scope-335a078cec04)
+- [var, let, const 특징 및 호이스팅 \| sjk5766](https://medium.com/sjk5766/var-let-const-%ED%8A%B9%EC%A7%95-%EB%B0%8F-scope-335a078cec04)
 - 정재남, 코어 자바스크립트, 위키북스(2019)

@@ -32,5 +32,5 @@ myFunc();
 
 ### 참고 자료
 
-- [[MDN] 클로저](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Closures)
+- [클로저 \| MDN](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Closures)
 - 정재남, 코어 자바스크립트, 위키북스(2019)

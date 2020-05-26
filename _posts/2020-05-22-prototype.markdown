@@ -22,5 +22,5 @@ categories: JavaScript
 
 ### 참고 자료
 
-- [[MDN] 상속과 프로토타입](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Inheritance_and_the_prototype_chain)
+- [상속과 프로토타입 \| MDN](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Inheritance_and_the_prototype_chain)
 - 정재남, 코어 자바스크립트, 위키북스(2019)

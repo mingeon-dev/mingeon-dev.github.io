@@ -36,5 +36,5 @@ categories: JavaScript
 
 ### 참고 자료
 
-- [렌더링 성능](https://developers.google.com/web/fundamentals/performance/rendering?hl=ko)
-- [성능 최적화](https://ui.toast.com/fe-guide/ko_PERFORMANCE/)
+- [렌더링 성능 \| Google Developers](https://developers.google.com/web/fundamentals/performance/rendering?hl=ko)
+- [성능 최적화 \| TOAST UI](https://ui.toast.com/fe-guide/ko_PERFORMANCE/)

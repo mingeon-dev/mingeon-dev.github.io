@@ -33,5 +33,5 @@ categories: JavaScript
 
 ### 참고 자료
 
-- [[MDN] 자바스크립트의 자료형](https://developer.mozilla.org/ko/docs/Web/JavaScript/Data_structures)
+- [자바스크립트의 자료형 \| MDN](https://developer.mozilla.org/ko/docs/Web/JavaScript/Data_structures)
 - 정재남, 코어 자바스크립트, 위키북스(2019)
