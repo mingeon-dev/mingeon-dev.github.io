@@ -31,6 +31,9 @@ texture:
 # Build settings
 # theme: texture
 
+url: "https://mingeon-dev.github.io/"
+
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 #  - jekyll-feed
