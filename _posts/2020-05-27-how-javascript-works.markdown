@@ -5,7 +5,7 @@ date: 2020-05-27 00:00:00 +0900
 categories: JavaScript
 ---
 
-자바스크립트 엔진, 런타임, 콜 스택, 동시성과 이벤트 루프
+자바스크립트 엔진, 런타임, 콜 스택, 동시성과 이벤트 루프, 마이크로 태스크
 
 ---
 
@@ -33,6 +33,13 @@ categories: JavaScript
 - 이벤트 루프는 콜 스택과 콜백 큐를 감시하며, 콜 스택이 비어 있으면 큐에서 이벤트를 꺼내 콜 스택에 넣어 실행
 - 콜 스택 처리 시간이 오래 걸릴 경우 브라우저가 응답하지 않는 상태 발생하며 이는 비동기 콜백을 통해 해결
 
+### 마이크로 태스크(Microtask)
+
+- 현재 실행되고 있는 작업 바로 다음에 실행되며, 일반 태스크보다 높은 우선 순위를 가짐 (모든 마이크로 태스크가 실행된 후에 일반 태스크 실행)
+- observer callback이나 promise callblack이 대표적인 마이크로 태스크
+
 ### 참고 자료
 
 - [자바스크립트의 동작원리: 엔진, 런타임, 호출 스택 \| Captain Pangyo](https://joshua1988.github.io/web-development/translation/javascript/how-js-works-inside-engine/)
+- [Don’t block the event loop! 매끄러운 경험을 위한 JavaScript 비동기 처리 \| LINE Engineering](https://engineering.linecorp.com/ko/blog/dont-block-the-event-loop/)
+- [[번역] Tasks, microtasks, queues and schedules \| bono's blog](https://blueshw.github.io/2018/01/28/tasks-microtasks-queues-and-schedules/)
