@@ -36,7 +36,7 @@ categories: JavaScript
 ### 마이크로 태스크(Microtask)
 
 - 현재 실행되고 있는 작업 바로 다음에 실행되며, 일반 태스크보다 높은 우선 순위를 가짐 (모든 마이크로 태스크가 실행된 후에 일반 태스크 실행)
-- observer callback이나 promise callblack이 대표적인 마이크로 태스크
+- observer callback이나 promise callback이 대표적인 마이크로 태스크
 
 ### 참고 자료
 
